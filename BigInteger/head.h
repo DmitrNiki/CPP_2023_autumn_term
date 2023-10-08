@@ -1,0 +1,10 @@
+struct BigInt;
+BigInt operator+(BigInt &a, BigInt &b);
+BigInt operator-(BigInt &a, BigInt &b);
+BigInt operator*(BigInt &a, BigInt &b);
+bool operator>(const BigInt &a, const BigInt &b);
+bool operator<(const BigInt &a, const BigInt &b);
+bool operator!=(const BigInt &a, const BigInt &b);
+bool operator==(const BigInt &a, const BigInt &b);
+BigInt operator--(const BigInt &a);
+BigInt Subtraction(const BigInt a, const BigInt b);
